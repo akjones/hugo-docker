@@ -1,0 +1,6 @@
+sudo: required
+servies:
+  - docker
+
+script:
+  - ./build.sh 0.32.4
